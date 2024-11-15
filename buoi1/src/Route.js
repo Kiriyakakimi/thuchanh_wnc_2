@@ -4,6 +4,8 @@ import App from './App';
 import Login from './Login';
 import Car from './car';
 import {Hello, Hello2,HelloPerson} from './Hello';
+import Productlist from './productlist';
+import Productdetail from './productdetail';
 
 
 const route = createBrowserRouter([
@@ -22,6 +24,14 @@ const route = createBrowserRouter([
     {
         path: '/hello',
         element: <Hello />,
+    },
+    {
+        path: '/product',
+        element: <Productlist />,
+    },
+    {
+        path: '/product/:masp',
+        element: <Productdetail />,
     },
     { path: '*', element: <div>Not found</div> },
 ]);

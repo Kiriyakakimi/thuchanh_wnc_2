@@ -21,6 +21,7 @@ function Header(){
         {link:'/',content:'Trang chủ'},
         {link:'/about',content:'About'},
         {link:'/',content:'Liên hệ'},
+        {link:'/product',content:'Sản phẩm'},
     ];
     return (
         <div>
