@@ -4,6 +4,8 @@ import {Hello, HelloPerson, Hello2} from './Hello';
 import Header from './Header';
 import Car from './car';
 import Login from './Login';
+import UserInfo from './UserInfor';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Hello2 />
         <Car />
         <Login />
+        <UserInfo />
       </header>
     </div>
   );
